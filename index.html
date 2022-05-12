@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>adlerpat.dev</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript" language="javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script type="text/javascript" language="javascript" src="js/bee-movie.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div id="myHeader" class="header menu-container">
+        <div class="socials-container">
+            <a href="https://github.com/adlerpat" target="_blank"><img src="assets/images/github.png" /></a>
+            <a href="https://gitlab.com/adlerpat" target="_blank"><img src="assets/images/gitlab.png" /></a>
+            <a href="https://trailblazer.me/id/patrickadler" target="_blank"><img
+                    src="assets/images/trailhead.webp" /></a>
+        </div>
+        <div class="menu">
+            <h1 class="menu-item" onclick="loadContentPage('projects')">Projects</h1>
+            <h1 class="menu-item" onclick="loadContentPage('skills')">Skills</h1>
+            <h1 class="menu-item" onclick="loadContentPage('interests')">Interests</h1>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="content-container">
+        <div class="bee-center">
+            <div class="bee-container">
+                <div class="bee"></div>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ce9CUq.json" background="transparent"
+                    speed="0.2" style="width: 100%; height: 300px;" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div id="projects"class="content-container">
+        <h1 style="text-align: center;">Projects</h1>
+        <table class="table-projects">
+            <tr>
+                <td class="table-projects-header"><a href="https://urlaubplaner4ultrawide.web.app/" target="_blank">
+                        <h2 class="menu-item">Urlaubplaner4Ultrawide</h2>
+                    </a></td>
+                <td class="table-projects-header"><a href="https://urlaubplaner4ultrawide.web.app/" target="_blank">
+                        <h2 class="menu-item">Zeitdiebe</h2>
+                    </a></td>
+            </tr>
+            <tr>
+                <td class="table-projects-imagerow">
+                    <img src="assets/images/urlaubplaner-demo.png" width="30%" />
+                </td>
+                <td class="table-projects-imagerow">
+                    <img class="noshadow" src="assets/images/zeitdiebe-demo.png" width="30%" />
+                </td>
+            </tr>
+            <tr style="vertical-align: baseline;">
+                <td>
+                    <h3>A Vacation Planner for Ultrawide Monitors</h3>
+                    <h2>Premise:</h2>
+                    <p>Ultrawide Monitors offer the possibility to have all months of the year in day resolution
+                        displayed at once.</p>
+                    <p>This is the perfect premise for planning your vacation days.</p>
+                    <h2>Techstack</h2>
+                    <h3>Frontend:</h3>
+                    <p>TypeScript, Angular, PrimeNg, FullCallendar</p>
+                    <h3>Versioning:</h3>
+                    <p>Private GitHub Repository (will be open sourced)</p>
+                    <h3>Deployment:</h3>
+                    <p>Free Google Firebase Instance</p>
+                </td>
+                <td>
+                    <h3>A Tracker App for delays and cancellations of Train Departures</h3>
+                    <h2>Premise:</h2>
+                    <p>I travel with DB maybe twice per month. I have never in the past 3 years had a train that was
+                        punctual.</p>
+                    <p>I want to track how many minutes of my life have been stolen by unpuctual trains.</p>
+                    <h2>Techstack</h2>
+                    <h3>Frontend:</h3>
+                    <p>TypeScript, Angular, Ionic</p>
+                    <h3>Backend:</h3>
+                    <p>Google Firebase free Instance (+ FireStorage)</p>
+                    <h3>Versioning:</h3>
+                    <p>Private GitHub Repository (will be open sourced)</p>
+                    <h3>Deployment:</h3>
+                    <p>Not yet deployed. Will be available via apk.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="table-projects-header"><a href="https://proske-sanitaer.de/" target="_blank">
+                        <h2 class="menu-item">Proske Sanitär Website</h2>
+                    </a>
+                </td>
+                <td class="table-projects-header"><a href="https://proske-sanitaer.de/" target="_blank">
+                        <h2 class="menu-item">Undisclosed Projects</h2>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="table-projects-imagerow">
+                    <img src="assets/images/proske-demo.png" width="30%" />
+                </td>
+                <td class="table-projects-imagerow">
+                    <img class="noshadow" src="assets/images/undisclosed.png" width="30%" />
+                </td>
+            </tr>
+            <tr style="vertical-align: baseline;">
+                <td>
+                    <h3>Website for Proske Sanitär Heidelberg</h3>
+                    <h2>Premise:</h2>
+                    <p>Their old website was written in pure html and was really getting old. It was also quite hard to
+                        find them in Google.</p>
+                    <p>I invested a weekend and used Wordpress to build them a Website they could edit themselves while
+                        having a good enough base SEO to be found via Search Engines.</p>
+                    <h2>Techstack:</h2>
+                    <p>Wordpress</p>
+                    <h3>Versioning:</h3>
+                    <p>Private GitHub Repository</p>
+                </td>
+                <td>
+                    <h3>Some Webapps / Mobile Projects</h3>
+                    <p>I worked and work on a few mobile targeted Web-Applications with Angular on Ionic, NestJs/ExpressJs, MongoDB/PostgreSql</p>
+                    <p>This is done in my free time, through hackathons on weekends or after work.</p>
+                    <p>I also regularly do coding excersises like AdventOfCode to learn new languages, or try out new Tools / Stacks out of personal interest.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="spacer"></div>
+    <div id="skills" class="content-container">
+        <h1 style="text-align: center;">Skills</h1>
+        <table class="table-projects">
+            <tr>
+                <td class="table-skills-header">
+                    <h2>Frontend Web-Development</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>Backend Web-Development</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>Salesforce B2B Development</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>DevSecOps</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+            </tr>
+            <tr>
+                <td class="table-skills-imagerow">
+                    <img src="assets/images/angulartscode.png" width="30%" />
+                    <img src="assets/images/ionic.png" width="30%" />
+                </td>
+                <td class="table-skills-imagerow">
+                    <img src="assets/images/codenet.png" width="40%" />
+                </td>
+                <td class="table-skills-imagerow">
+                    <img src="assets/images/salesforce.png" width="40%" />
+                </td>
+                <td class="table-skills-imagerow">
+                    <img src="assets/images/devsecops.png" width="40%" />
+                </td>
+            </tr>
+            <tr style="vertical-align: baseline;">
+                <td>
+                    <p>Learned through various Projects, both for work and private.</p>
+                </td>
+                <td>
+                    <p>Learned through various Projects, both for work and private.</p>
+                </td>
+                <td>
+                    <p>Learned through the migration to Salesforce in the company I work for.</p>
+                </td>
+                <td>
+                    <p>Learned through various Projects, both for work and private.</p>
+                </td>
+            </tr>
+        </table>
+        <div class="spacer"></div>
+        <h1 id="interests" style="text-align: center;">Interests</h1>
+        <table class="table-projects">
+            <tr>
+                <td class="table-skills-header">
+                    <h2>Web-Development</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>Decentralized Applications</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>Security</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+                <td class="table-skills-header">
+                    <h2>Finance</h2>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </td>
+            </tr>
+            <tr style="vertical-align: baseline;">
+                <td>
+                    <p>The Web is the single most democratizing power of our time and it just does not stop being interesting.</p>
+                    <p>I visited my first Website at age 6 in 2005 together with my dad, it was eBay and he was buying some car parts. Since then I have been hooked as a consoomer, YouTube, Social Networks, Games - you name it. The Web defined my life. As I grew older, my Interest naturally turned into the desire to program, work in the field.</p>
+                </td>
+                <td>
+                    <p>As the Internet becomes more and more centralized by big companies such as AWS, Facebook, Google etc. it becomes ever so important that we don't waste the potential.</p>
+                    <p>Decentralized has become a huge buzzword, but I am sure that decentralized applications such as p2p messaging, bitcoin, p2p social networks will have a ever growing importance in the coming years. The Internet can be weaponized - but we can also use it to deweaponize essential tools such as speach and ownership.</p>
+                </td>
+                <td>
+                    <p>Ever since Edward Snowden leaked the inhumane way National Security Agencies all around the world monitor, store and analyze our personal information and data it has become clear that their is no digital privacy.</p>
+                    <p>Nevertheless, reading the documents awakened my interest in Cyber Security, Basic Concepts for ones personal life aswell as for work (e.g. Application Security Management).</p>
+                </td>
+                <td>
+                    <p>As the first generation that will not be able to rely on social security for their pension we must be open for the tools capitalism has to offer.</p>
+                    <p>Money has also become one of the biggest weapons of nations, which is why I believe their needs to be an alternative like bitcoin.</p>
+                </td>
+            </tr>
+        </table>
+        <div class="spacer"></div>
+        <div class="july">
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_R7qGYA.json" background="transparent"
+                speed="0.2" style="width: 100%; height: 300px;" loop autoplay></lottie-player>
+                I also have a lovely Dog Girl named July
+        </div>
+        <div class="spacer"></div>
+        <div id="footer" class="july">
+            
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            var options = {
+                strings: beeScript,
+                typeSpeed: 40,
+                loop: true,
+            };
+
+            var typed = new Typed('.bee', options);
+
+            var footer = document.getElementById("footer");
+            footer.innerHTML = "© " + new Date().getFullYear() + " - adlerpat.dev";
+        }
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+        function loadContentPage(tag) {
+            document.getElementById(tag).scrollIntoView();
+        }
+    </script>
+</body>
+
+</html>
